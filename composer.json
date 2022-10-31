@@ -1,0 +1,29 @@
+{
+    "name": "tboileau/kata-trick-or-treat",
+    "description": "Kata - TrickOrTreat",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TBoileau\\Kata\\TrickOrTreat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TBoileau\\Kata\\TrickOrTreat\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TBoileau",
+            "email": "t-boileau@email.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
